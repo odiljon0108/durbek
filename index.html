@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="uz" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>META IT SCHOOL Andijon — Zamonaviy IT Kasblari Akademiyasi | Bepul Sinov Darsi</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Andijonda zamonaviy IT kurslari: Frontend, Backend, Python, Fullstack, Flutter, UI/UX Dizayn va IT Foundation. 80% amaliyot, tajribali mentorlar va birinchi dars mutlaqo bepul!">
+  <meta name="keywords" content="Meta IT School, IT kurslar Andijon, Dasturlash maktabi Andijon, Frontend, Python, Django, Flutter, UI UX dizayn, bepul sinov darsi, Andijon IT Park">
+  <meta name="author" content="META IT SCHOOL">
+  <meta name="theme-color" content="#0b0f19">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metaitschool-andijan.netlify.app/">
+  <meta property="og:title" content="META IT SCHOOL Andijon — Zamonaviy IT Kasblari">
+  <meta property="og:description" content="Andijonda eng talabgir IT sohalarini noldan o'rganing. Ilk dars mutlaqo bepul!">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><path d='M25 70L40 30L55 55L70 30L80 70' stroke='white' stroke-width='9' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>">
+</head>
+<body class="bg-dark text-light antialiased selection-primary">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <aside class="announcement-bar" id="announcementBar">
+    <div class="container announcement-content">
+      <div class="announcement-badge">
+        <span class="pulse-dot"></span> Yangi qabul ochiq
+      </div>
+      <p class="announcement-text">
+        🔥 <strong>Andijon yoshlari uchun:</strong> Yangi guruhlarga qabul boshlandi! Ilk sinov darsi — <strong>MUTLAQO BEPUL</strong>!
+      </p>
+      <div class="announcement-actions">
+        <a href="#trial-form" class="announcement-link">Joy band qilish &rarr;</a>
+        <button type="button" class="announcement-close" id="closeAnnouncement" aria-label="E'lonni yopish">&times;</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- NAVBAR -->
+  <header class="navbar-wrapper" id="mainHeader">
+    <nav class="container navbar" aria-label="Asosiy navigatsiya">
+      <!-- LOGO -->
+      <a href="#home" class="logo" aria-label="Meta IT School Bosh sahifa">
+        <div class="logo-icon-wrapper">
+          <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="url(#logoGrad)"/>
+            <path d="M10 28L17 12L23 22L29 12L34 28" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4f46e5"/>
+                <stop offset="1" stop-color="#06b6d4"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-brand">META <span class="text-gradient">IT SCHOOL</span></span>
+          <span class="logo-tagline">ANDIJON FILIALI</span>
+        </div>
+      </a>
+
+      <!-- DESKTOP NAV LINKS -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Bosh sahifa</a></li>
+        <li><a href="#about" class="nav-link">Biz haqimizda</a></li>
+        <li><a href="#courses" class="nav-link">Kurslar</a></li>
+        <li><a href="#why-us" class="nav-link">Nega biz?</a></li>
+        <li><a href="#mentors" class="nav-link">Mentorlar</a></li>
+        <li><a href="#results" class="nav-link">Natijalar</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Aloqa</a></li>
+      </ul>
+
+      <!-- RIGHT NAV ACTIONS -->
+      <div class="nav-actions">
+        <a href="tel:+998901234567" class="nav-phone" title="Qo'ng'iroq qilish">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          <span>+998 (90) 123-45-67</span>
+        </a>
+        <a href="#trial-form" class="btn btn-primary btn-sm nav-cta-btn">
+          <span>Bepul dars</span>
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <!-- MOBILE HAMBURGER TOGGLE -->
+        <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Menyuni ochish/yopish" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- BACKDROP FOR MOBILE MENU -->
+  <div class="menu-backdrop" id="menuBackdrop"></div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <!-- Background Glow Orbs -->
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      
+      <div class="container hero-container">
+        <!-- Hero Left Column: Pitch -->
+        <div class="hero-content">
+          <div class="inline-badge animate-fade-down">
+            <span class="badge-icon">🏛️</span>
+            <span>Andijonda Zamonaviy IT Akademiyasi</span>
+            <span class="badge-pill">2026 Qabul</span>
+          </div>
+
+          <h1 class="hero-title animate-fade-up">
+            Andijonda Zamonaviy <span class="text-gradient">IT Kasblarini</span> Noldan O'rganing va Yuqori Maoshli Dasturchi Bo'ling!
+          </h1>
+
+          <p class="hero-description animate-fade-up delay-1">
+            <strong>Meta IT School</strong> — 80% amaliyot, individual yondashuv, xalqaro darajadagi mentorlar va rasmiy xalqaro sertifikat bilan talabgir IT sohalariga ishonchli start bering. Birinchi dars — <strong>mutlaqo bepul!</strong>
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-buttons animate-fade-up delay-2">
+            <a href="#trial-form" class="btn btn-primary btn-lg pulse-glow">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <span>Bepul sinov darsiga yozilish</span>
+            </a>
+            <a href="#courses" class="btn btn-outline btn-lg">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              <span>Barcha kurslar</span>
+            </a>
+          </div>
+
+          <!-- Trust Markers -->
+          <div class="hero-stats-grid animate-fade-up delay-3">
+            <div class="stat-card">
+              <div class="stat-number" data-target="1500">1,500+</div>
+              <div class="stat-label">Muvaffaqiyatli bitiruvchilar</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-target="94">94%</div>
+              <div class="stat-label">Ishga joylashish ko'rsatkichi</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-target="12">12+</div>
+              <div class="stat-label">Amaliy portfolio loyihalari</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-target="80">80%</div>
+              <div class="stat-label">Amaliy darslar ulushi</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: High-tech Visual & Live Preview -->
+        <div class="hero-visual animate-fade-left">
+          <div class="visual-card-wrapper">
+            <!-- Glassmorphism Main Educational Card -->
+            <div class="hero-main-card">
+              <div class="card-header-bar">
+                <div class="window-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="window-title">meta_it_andijan.js</div>
+                <span class="live-indicator"><span class="live-dot"></span> LIVE CLASS</span>
+              </div>
+              
+              <!-- Code & Student Illustration Preview -->
+              <div class="hero-code-box">
+                <pre><code><span class="code-comment">// Meta IT School Andijon</span>
+<span class="code-keyword">const</span> student = {
+  name: <span class="code-string">"Andijon Yoshlari"</span>,
+  academy: <span class="code-string">"META IT SCHOOL"</span>,
+  status: <span class="code-string">"Kelajak Dasturchisi"</span>,
+  targetSalary: <span class="code-string">"$1,200 - $3,000 / oy"</span>,
+  skills: [<span class="code-string">"Frontend"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"AI"</span>],
+  readyToStart: <span class="code-keyword">true</span>
+};
+
+<span class="code-comment">// Sinov darsi bepul!</span>
+<span class="code-func">enrollFreeTrial</span>(student);</code></pre>
+              </div>
+
+              <!-- High Quality Real Student Workspace Image -->
+              <div class="hero-card-image-box">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=900&auto=format&fit=crop" 
+                     alt="Meta IT School Andijon o'quvchilari amaliy darsda" 
+                     class="hero-img"
+                     loading="eager"
+                     width="500"
+                     height="300">
+                <div class="image-overlay-info">
+                  <span class="overlay-badge">🎓 Zamonaviy IT Lab</span>
+                  <span class="overlay-location">📍 Andijon markazi</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Mini Card 1: Salary Indicator -->
+            <div class="floating-badge badge-salary floating-anim-1">
+              <div class="badge-icon-box bg-emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+              </div>
+              <div class="floating-badge-text">
+                <span class="floating-label">O'rtacha boshlang'ich maosh:</span>
+                <span class="floating-val">$600 — $2,000+</span>
+              </div>
+            </div>
+
+            <!-- Floating Mini Card 2: Student Feedback -->
+            <div class="floating-badge badge-review floating-anim-2">
+              <div class="badge-icon-box bg-indigo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <div class="floating-badge-text">
+                <span class="floating-label">O'quvchilar reytingi:</span>
+                <span class="floating-val">⭐ 4.9 / 5.0 (650+ fikr)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK & PARTNERS LOGO STRIP -->
+    <section class="tech-strip-section" aria-label="O'qitiladigan texnologiyalar">
+      <div class="container">
+        <p class="strip-label">Akademiyamizda o'rganiladigan xalqaro darajadagi zamonaviy texnologiyalar:</p>
+        <div class="tech-badges-grid">
+          <div class="tech-tag"><span class="tech-icon">🐍</span> Python</div>
+          <div class="tech-tag"><span class="tech-icon">⚡</span> JavaScript ES6+</div>
+          <div class="tech-tag"><span class="tech-icon">⚛️</span> React.js</div>
+          <div class="tech-tag"><span class="tech-icon">🟢</span> Node.js</div>
+          <div class="tech-tag"><span class="tech-icon">🌐</span> Django REST</div>
+          <div class="tech-tag"><span class="tech-icon">📱</span> Flutter & Dart</div>
+          <div class="tech-tag"><span class="tech-icon">🎨</span> Figma UI/UX</div>
+          <div class="tech-tag"><span class="tech-icon">🐘</span> PostgreSQL</div>
+          <div class="tech-tag"><span class="tech-icon">🐳</span> Docker</div>
+          <div class="tech-tag"><span class="tech-icon">🤖</span> AI & Data Science</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIZ HAQIMIZDA (ABOUT US) -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Nega aynan biz?</span>
+          <h2 class="section-title">Andijonda Professional Dasturchilarni Yetishtiruvchi IT Maktab</h2>
+          <p class="section-desc">
+            Meta IT School — shunchaki kurs emas, balki sizni noldan boshlab IT kompaniyalarida ishlash darajasiga olib chiqadigan to'liq ekotizimdir.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- About Card 1 -->
+          <div class="about-card">
+            <div class="about-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <h3 class="about-card-title">80% Amaliyot va Real Loyihalar</h3>
+            <p class="about-card-text">
+              Quruq nazariya o'rniga har bir darsda amaliy topshiriqlar, xalqaro frilans keyslari va jamoaviy startap loyihalari ustida ishlaysiz.
+            </p>
+            <ul class="about-list">
+              <li>✓ Har bir mavzuga mos amaliy vazifalar</li>
+              <li>✓ Real mijozlar uchun portfolio saytlari</li>
+              <li>✓ GitHub da xalqaro standartdagi kodlar</li>
+            </ul>
+          </div>
+
+          <!-- About Card 2 -->
+          <div class="about-card">
+            <div class="about-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="about-card-title">Kuchli IT Laboratoriya & Coworking</h3>
+            <p class="about-card-text">
+              Noutbukingiz bo'lmasa xavotirlanmang! Markazimiz yuqori tezlikdagi kompyuterlar, 100 Mbit/s optik tolali internet va qulay ish zonalari bilan ta'minlangan.
+            </p>
+            <ul class="about-list">
+              <li>✓ Zamonaviy iMac va i7 kompyuterlar</li>
+              <li>✓ 24/7 o'quvchilar uchun Co-working zonasi</li>
+              <li>✓ Bepul choy, qahva va shinam muhit</li>
+            </ul>
+          </div>
+
+          <!-- About Card 3 -->
+          <div class="about-card">
+            <div class="about-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="about-card-title">Individual Mentorlik & Karyera Markazi</h3>
+            <p class="about-card-text">
+              Har bir o'quvchiga asosiy ustozdan tashqari assistent-mentor (support teacher) biriktiriladi. Karyera markazimiz esa sizni ishga joylashishga tayyorlaydi.
+            </p>
+            <ul class="about-list">
+              <li>✓ Rezyume va LinkedIn profilini tayyorlash</li>
+              <li>✓ Mock interview (Texnik suhbat) simulyatsiyasi</li>
+              <li>✓ IT Park hamkor kompaniyalariga tavsiya</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Big Classroom Showcase Banner -->
+        <div class="about-showcase">
+          <div class="showcase-content">
+            <span class="badge-mini">🎯 Bizning Shiorimiz</span>
+            <h3 class="showcase-title">"Har bir Andijon yoshi noldan boshlab IT orqali o'z kelajagini yarata oladi!"</h3>
+            <p class="showcase-text">
+              Biz faqat kod yozishni emas, balki muammolarni tizimli yechishni, jamoada ishlashni va xalqaro bozorda frilans orqali mustaqil daromad topishni o'rgatamiz.
+            </p>
+            <div class="showcase-highlights">
+              <div class="highlight-item">
+                <span class="highlight-num">100%</span>
+                <span class="highlight-desc">O'zbek tilidagi qulay darslar</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-num">1-dars</span>
+                <span class="highlight-desc">Mutlaqo bepul va kafolatli</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-num">Sertifikat</span>
+                <span class="highlight-desc">QR-kodli rasmiy diplom</span>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-image-wrap">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop" 
+                 alt="Meta IT School Andijon zamonaviy xonasi va o'quvchilari" 
+                 class="showcase-image" 
+                 loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KURSLARIMIZ (COURSES SECTION) -->
+    <section class="courses-section" id="courses">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">O'quv yo'nalishlari</span>
+          <h2 class="section-title">2026-yilning Eng Talabgir IT Kurslari</h2>
+          <p class="section-desc">
+            O'zingizga qiziq bo'lgan yo'nalishni tanlang. Noldan boshlang va bir necha oyda talabgir mutaxassisga aylaning!
+          </p>
+        </div>
+
+        <!-- Course Filter Tabs -->
+        <div class="courses-filter-tabs" role="tablist" aria-label="Kurslar toifalari">
+          <button type="button" class="filter-tab active" data-filter="all">Barcha kurslar</button>
+          <button type="button" class="filter-tab" data-filter="web">Dasturlash (Web & Backend)</button>
+          <button type="button" class="filter-tab" data-filter="mobile">Mobil Dasturlash</button>
+          <button type="button" class="filter-tab" data-filter="design">Dizayn & UI/UX</button>
+          <button type="button" class="filter-tab" data-filter="foundation">Boshlang'ich & Bolalar</button>
+        </div>
+
+        <!-- Courses Cards Grid -->
+        <div class="courses-grid" id="coursesGrid">
+
+          <!-- COURSE 1: FRONTEND -->
+          <article class="course-card" data-category="web">
+            <div class="course-badge">Eng ommabop</div>
+            <div class="course-image-box">
+              <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=700&auto=format&fit=crop" 
+                   alt="Frontend Dasturlash kursi Andijon" 
+                   class="course-img" 
+                   loading="lazy">
+              <span class="course-level-tag">Noldan Junior+ gacha</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta">
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 oy</span>
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg> $700 - $1800/oy</span>
+              </div>
+              <h3 class="course-title">Frontend Dasturlash (React & Next.js)</h3>
+              <p class="course-summary">
+                Zamonaviy veb-saytlar, interfeyslar va web-ilovalarni yaratishni noldan o'rganing. HTML, CSS, JavaScript, React va Tailwind CSS.
+              </p>
+              <div class="course-tags">
+                <span class="tag">HTML5/CSS3</span>
+                <span class="tag">JavaScript ES6+</span>
+                <span class="tag">React.js</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Next.js</span>
+              </div>
+              <div class="course-footer">
+                <button type="button" class="btn btn-outline btn-sm view-course-modal" 
+                        data-course-id="frontend"
+                        data-course-title="Frontend Dasturlash (React & Next.js)">
+                  Dasturni ko'rish
+                </button>
+                <button type="button" class="btn btn-primary btn-sm select-course-btn" 
+                        data-course-name="Frontend Dasturlash (React)">
+                  Yozilish
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- COURSE 2: BACKEND PYTHON -->
+          <article class="course-card" data-category="web">
+            <div class="course-badge badge-accent">Katta talab</div>
+            <div class="course-image-box">
+              <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=700&auto=format&fit=crop" 
+                   alt="Python Django Backend kursi" 
+                   class="course-img" 
+                   loading="lazy">
+              <span class="course-level-tag">Noldan Professional</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta">
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 oy</span>
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg> $800 - $2200/oy</span>
+              </div>
+              <h3 class="course-title">Backend Dasturlash (Python & Django)</h3>
+              <p class="course-summary">
+                Murakkab server tizimlari, API arxitekturasi, ma'lumotlar ombori (PostgreSQL) va xavfsiz Telegram botlar yaratish.
+              </p>
+              <div class="course-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Django REST</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Telegram Bot</span>
+              </div>
+              <div class="course-footer">
+                <button type="button" class="btn btn-outline btn-sm view-course-modal" 
+                        data-course-id="backend"
+                        data-course-title="Backend Dasturlash (Python & Django)">
+                  Dasturni ko'rish
+                </button>
+                <button type="button" class="btn btn-primary btn-sm select-course-btn" 
+                        data-course-name="Backend Dasturlash (Python & Django)">
+                  Yozilish
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- COURSE 3: FULLSTACK JAVASCRIPT -->
+          <article class="course-card" data-category="web">
+            <div class="course-badge badge-gold">To'liq sikl</div>
+            <div class="course-image-box">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=700&auto=format&fit=crop" 
+                   alt="Fullstack JavaScript kursi" 
+                   class="course-img" 
+                   loading="lazy">
+              <span class="course-level-tag">Mukammal daraja</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta">
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8 oy</span>
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg> $1000 - $2500/oy</span>
+              </div>
+              <h3 class="course-title">Fullstack JavaScript (Node.js & MERN)</h3>
+              <p class="course-summary">
+                Ham Frontend ham Backend qismini bitta JavaScript tili yordamida noldan tugallangan mahsulot darajasida yaratishni o'rganing.
+              </p>
+              <div class="course-tags">
+                <span class="tag">Node.js</span>
+                <span class="tag">Express</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+              </div>
+              <div class="course-footer">
+                <button type="button" class="btn btn-outline btn-sm view-course-modal" 
+                        data-course-id="fullstack"
+                        data-course-title="Fullstack JavaScript (Node.js & MERN)">
+                  Dasturni ko'rish
+                </button>
+                <button type="button" class="btn btn-primary btn-sm select-course-btn" 
+                        data-course-name="Fullstack JavaScript (Node.js)">
+                  Yozilish
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- COURSE 4: FLUTTER MOBILE -->
+          <article class="course-card" data-category="mobile">
+            <div class="course-badge">iOS & Android</div>
+            <div class="course-image-box">
+              <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=700&auto=format&fit=crop" 
+                   alt="Flutter Mobile Dasturlash kursi" 
+                   class="course-img" 
+                   loading="lazy">
+              <span class="course-level-tag">Amaliy Mobil Ilovalar</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta">
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 oy</span>
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg> $800 - $2000/oy</span>
+              </div>
+              <h3 class="course-title">Mobile Dasturlash (Flutter & Dart)</h3>
+              <p class="course-summary">
+                Bitta kod bazasi bilan ham Android, ham iPhone uchun yuqori tezlikda ishlovchi zamonaviy mobil ilovalar yaratish.
+              </p>
+              <div class="course-tags">
+                <span class="tag">Dart</span>
+                <span class="tag">Flutter</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">BLoC / State</span>
+                <span class="tag">REST API</span>
+              </div>
+              <div class="course-footer">
+                <button type="button" class="btn btn-outline btn-sm view-course-modal" 
+                        data-course-id="flutter"
+                        data-course-title="Mobile Dasturlash (Flutter & Dart)">
+                  Dasturni ko'rish
+                </button>
+                <button type="button" class="btn btn-primary btn-sm select-course-btn" 
+                        data-course-name="Mobile Dasturlash (Flutter)">
+                  Yozilish
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- COURSE 5: UI/UX & GRAFIK DIZAYN -->
+     
+
+          <!-- COURSE 6: IT FOUNDATION -->
+          <article class="course-card" data-category="foundation">
+            <div class="course-badge">Eng yaxshi start</div>
+            <div class="course-image-box">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=700&auto=format&fit=crop" 
+                   alt="IT Foundation Kompyuter Savodxonligi" 
+                   class="course-img" 
+                   loading="lazy">
+              <span class="course-level-tag">Mutlaqo noldan</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta">
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 2 oy</span>
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg> Ishonchli baza</span>
+              </div>
+              <h3 class="course-title">IT Foundation & Kompyuter Savodxonligi</h3>
+              <p class="course-summary">
+                Kompyuterni professional darajada boshqarish, tezkor klaviatura terish, internet xavfsizligi va dasturlashga ilk qadamlar.
+              </p>
+              <div class="course-tags">
+                <span class="tag">Windows/OS</span>
+                <span class="tag">MS Office</span>
+                <span class="tag">Blind Typing</span>
+                <span class="tag">Algoritmlar</span>
+                <span class="tag">Git Asoslari</span>
+              </div>
+              <div class="course-footer">
+                <button type="button" class="btn btn-outline btn-sm view-course-modal" 
+                        data-course-id="foundation"
+                        data-course-title="IT Foundation & Kompyuter Savodxonligi">
+                  Dasturni ko'rish
+                </button>
+                <button type="button" class="btn btn-primary btn-sm select-course-btn" 
+                        data-course-name="IT Foundation (Kompyuter Savodxonligi)">
+                  Yozilish
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- COURSE 7: KIDS IT -->
+          <article class="course-card" data-category="foundation">
+            <div class="course-badge badge-green">7-14 yosh</div>
+            <div class="course-image-box">
+              <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=700&auto=format&fit=crop" 
+                   alt="Bolalar uchun IT va Scratch kursi" 
+                   class="course-img" 
+                   loading="lazy">
+              <span class="course-level-tag">Yosh dasturchilar</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta">
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 4 oy</span>
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg> Mantiq & O'yinlar</span>
+              </div>
+              <h3 class="course-title">Kids IT & Scratch (Bolalar Uchun Dasturlash)</h3>
+              <p class="course-summary">
+                Bolalarda mantiqiy fikrlashni rivojlantirish, shaxsiy 2D o'yinlar, multfilmlar va interaktiv loyihalar yaratish.
+              </p>
+              <div class="course-tags">
+                <span class="tag">Scratch</span>
+                <span class="tag">Kodu Game Lab</span>
+                <span class="tag">Python Kids</span>
+                <span class="tag">Mantiqiy fikrlash</span>
+              </div>
+              <div class="course-footer">
+                <button type="button" class="btn btn-outline btn-sm view-course-modal" 
+                        data-course-id="kids"
+                        data-course-title="Kids IT & Scratch (Bolalar Uchun Dasturlash)">
+                  Dasturni ko'rish
+                </button>
+                <button type="button" class="btn btn-primary btn-sm select-course-btn" 
+                        data-course-name="Kids IT & Scratch (Bolalar uchun)">
+                  Yozilish
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- COURSE 8: AI & DATA SCIENCE -->
+          <article class="course-card" data-category="web">
+            <div class="course-badge badge-purple">Kelajak kasbi</div>
+            <div class="course-image-box">
+              <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=700&auto=format&fit=crop" 
+                   alt="Sun'iy intellekt va Data Science kursi" 
+                   class="course-img" 
+                   loading="lazy">
+              <span class="course-level-tag">AI & Machine Learning</span>
+            </div>
+            <div class="course-body">
+              <div class="course-meta">
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 oy</span>
+                <span class="meta-item"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg> $1200 - $3000/oy</span>
+              </div>
+              <h3 class="course-title">Sun'iy Intellekt (AI) & Data Science</h3>
+              <p class="course-summary">
+                Katta hajmdagi ma'lumotlarni tahlil qilish, neyron tarmoqlar, Machine Learning va zamonaviy AI modellarini amaliyotga tatbiq etish.
+              </p>
+              <div class="course-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas / NumPy</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">ChatGPT API</span>
+                <span class="tag">Deep Learning</span>
+              </div>
+              <div class="course-footer">
+                <button type="button" class="btn btn-outline btn-sm view-course-modal" 
+                        data-course-id="ai"
+                        data-course-title="Sun'iy Intellekt (AI) & Data Science">
+                  Dasturni ko'rish
+                </button>
+                <button type="button" class="btn btn-primary btn-sm select-course-btn" 
+                        data-course-name="Sun'iy Intellekt & Data Science">
+                  Yozilish
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- NEGA BIZ? (ADVANTAGES) -->
+    <section class="why-us-section" id="why-us">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Afzalliklarimiz</span>
+          <h2 class="section-title">Meta IT School da O'qishning 6 Asosiy Sababi</h2>
+          <p class="section-desc">Biz shunchaki nazariya o'rgatmaymiz, balki sizni real ish bozorida o'z o'rnini topgan mutaxassisga aylantiramiz.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon bg-blue-grad">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/></svg>
+            </div>
+            <h4>Real Portfolio Yaratish</h4>
+            <p>Kurs davomida 10 dan ortiq to'liq loyiha tayyorlaysiz va bitirganda ish beruvchilarga ko'rsatish uchun tayyor GitHub profilingiz bo'ladi.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon bg-purple-grad">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-5.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+            </div>
+            <h4>Rasmiy Xalqaro Sertifikat</h4>
+            <p>Imtihonlarni muvaffaqiyatli topshirgan bitiruvchilarga O'zbekiston va xalqaro kompaniyalar tomonidan tan olinadigan QR-kodli sertifikat beriladi.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon bg-cyan-grad">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h4>Doimiy Mentor Yordami</h4>
+            <p>Tushunmagan joylaringiz qolib ketmaydi. Har bir guruhga biriktirilgan yordamchi o'qituvchilar darsdan tashqari vaqtda ham savollarga javob beradi.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon bg-emerald-grad">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <h4>Karyera Markazi va Ish Topish</h4>
+            <p>Bitiruvchilarni Andijon va Toshkentdagi IT kompaniyalarga, IT Park rezidentlariga tavsiya etamiz va suhbatlarga puxta tayyorlaymiz.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon bg-rose-grad">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+            </div>
+            <h4>Qulay Dars Vaqtlari</h4>
+            <p>Maktab o'quvchilari, talabalar va ishlaydiganlar uchun moslashtirilgan: Ertalabki, Kunduzgi va Kechki maxsus guruhlar mavjud.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon bg-amber-grad">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h4>100% Sifat Kafolati</h4>
+            <p>Birinchi sinov darsi mutlaqo bepul. Agar o'qish jarayoni sizga ma'qul kelmasa, ilk 2 hafta ichida to'lov to'liq qaytariladi.</p>
+          </div>
+        </div>
+
+        <!-- LEARNING PROCESS STEPS -->
+        <div class="process-wrapper">
+          <h3 class="process-title">O'quv Jarayoni Qanday Kechadi? (5 Qadam)</h3>
+          <div class="steps-container">
+            <div class="step-card">
+              <div class="step-number">01</div>
+              <h5>Sinov Darsi</h5>
+              <p>Bepul darsda qatnashib, mentor bilan tanishasiz va darajangizni aniqlaysiz.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">02</div>
+              <h5>Interaktiv Ta'lim</h5>
+              <p>Haftada 3 kun, 2 soatdan nazariya va 80% intensiv amaliy mashg'ulotlar.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">03</div>
+              <h5>Real Loyihalar</h5>
+              <p>Mijozlar buyurtmasi asosidagi loyihalarni jamoa bilan birga ishlab chiqasiz.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">04</div>
+              <h5>Diplom Himoyasi</h5>
+              <p>Katta ekspertlar oldida o'z startapingiz yoki loyihangizni himoya qilasiz.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">05</div>
+              <h5>Ishga Joylashish</h5>
+              <p>Karyera markazimiz ko'magida birinchi IT ishingizga yoki frilans loyihangizga ega bo'lasiz.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENTORLARIMIZ (MENTORS SECTION) -->
+    <section class="mentors-section" id="mentors">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Bizning Jamoa</span>
+          <h2 class="section-title">Katta Tajribaga Ega Amaliyotchi Mentorlar</h2>
+          <p class="section-desc">Sizga o'z sohasida xalqaro loyihalarda ishlab kelayotgan Senior va Middle darajadagi mutaxassislar dars beradi.</p>
+        </div>
+
+        <div class="mentors-grid">
+          <!-- Mentor 1 -->
+          <div class="mentor-card">
+            <div class="mentor-image-box">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop" 
+                   alt="Islom Karimov - Frontend Mentor" 
+                   class="mentor-img" 
+                   loading="lazy">
+              <span class="mentor-exp-badge">5+ Yil Tajriba</span>
+            </div>
+            <div class="mentor-info">
+              <h4 class="mentor-name">Islom Karimov</h4>
+              <p class="mentor-role">Lead Frontend Dasturchi</p>
+              <p class="mentor-bio">15 dan ortiq xalqaro veb-portallar muallifi. React, Next.js va zamonaviy arxitektura bo'yicha ekspert.</p>
+              <div class="mentor-skills">
+                <span>React.js</span>
+                <span>TypeScript</span>
+                <span>Next.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mentor 2 -->
+          <div class="mentor-card">
+            <div class="mentor-image-box">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop" 
+                   alt="Bobur Mirzayev - Python Backend Mentor" 
+                   class="mentor-img" 
+                   loading="lazy">
+              <span class="mentor-exp-badge">6+ Yil Tajriba</span>
+            </div>
+            <div class="mentor-info">
+              <h4 class="mentor-name">Bobur Mirzayev</h4>
+              <p class="mentor-role">Senior Python / Django Backend</p>
+              <p class="mentor-bio">Bank tizimlari va yuqori yuklamali API lar ustida ishlagan. PostgreSQL va Docker mutaxassisi.</p>
+              <div class="mentor-skills">
+                <span>Python</span>
+                <span>Django REST</span>
+                <span>PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mentor 3 -->
+          <div class="mentor-card">
+            <div class="mentor-image-box">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop" 
+                   alt="Madina Usmonova - UI/UX Designer" 
+                   class="mentor-img" 
+                   loading="lazy">
+              <span class="mentor-exp-badge">4+ Yil Tajriba</span>
+            </div>
+            <div class="mentor-info">
+              <h4 class="mentor-name">Madina Usmonova</h4>
+              <p class="mentor-role">Senior UI/UX Dizayner</p>
+              <p class="mentor-bio">Fintech va e-commerce ilovalari uchun dizayn tizimlari yaratuvchisi. Figma va Behance Top dizayneri.</p>
+              <div class="mentor-skills">
+                <span>Figma</span>
+                <span>Design Systems</span>
+                <span>UX Research</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mentor 4 -->
+          <div class="mentor-card">
+            <div class="mentor-image-box">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop" 
+                   alt="Jasur Rahimov - Mobile Developer" 
+                   class="mentor-img" 
+                   loading="lazy">
+              <span class="mentor-exp-badge">5+ Yil Tajriba</span>
+            </div>
+            <div class="mentor-info">
+              <h4 class="mentor-name">Jasur Rahimov</h4>
+              <p class="mentor-role">Mobile Engineer (Flutter)</p>
+              <p class="mentor-bio">App Store va Google Play da 20 dan ortiq muvaffaqiyatli ilovalar yaratgan amaliyotchi mutaxassis.</p>
+              <div class="mentor-skills">
+                <span>Flutter</span>
+                <span>Dart</span>
+                <span>Firebase</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NATIJALAR VA FIKRLAR (RESULTS & TESTIMONIALS) -->
+    <section class="results-section" id="results">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Muvaffaqiyat tarixi</span>
+          <h2 class="section-title">O'quvchilarimiz Natijalari va Fikrlari</h2>
+          <p class="section-desc">Bizning eng katta yutug'imiz — bitiruvchilarimizning yuqori maoshli IT kasblarida ishlayotganidir.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Review 1 -->
+          <div class="review-card">
+            <div class="review-header">
+              <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=200&auto=format&fit=crop" 
+                   alt="Otabek Rasulov" 
+                   class="review-avatar" 
+                   loading="lazy">
+              <div class="review-meta">
+                <h5 class="review-name">Otabek Rasulov</h5>
+                <p class="review-job">Frontend Dasturchi • <span class="text-accent">IT Park Rezidenti</span></p>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Meta IT School da Frontend kursini tamomladim. Darslar 100% amaliyotga asoslanganligi sababli, 5-oydayoq birinchi frilans buyurtmamni $350 ga topshirdim. Hozirda IT kompaniyada $900 oylik bilan ishlayapman!"
+            </p>
+            <div class="review-footer">
+              <span class="salary-badge">Maosh: $900 / oy</span>
+              <span class="course-completed">Frontend bitiruvchisi</span>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-card">
+            <div class="review-header">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop" 
+                   alt="Gulnoza Ahmedova" 
+                   class="review-avatar" 
+                   loading="lazy">
+              <div class="review-meta">
+                <h5 class="review-name">Gulnoza Ahmedova</h5>
+                <p class="review-job">UI/UX Dizayner • <span class="text-accent">Fintech Kompaniyasi</span></p>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Dasturlashdan qo'rqardim, shuning uchun UI/UX dizayn yo'nalishini tanladim. Mentorlarimiz har bir ishimni alohida tahlil qilib, xatolarimni ko'rsatishdi. Tayyor portfolio bilan Toshkentdagi kompaniyaga masofaviy ishga kirdim."
+            </p>
+            <div class="review-footer">
+              <span class="salary-badge">Maosh: $800 / oy</span>
+              <span class="course-completed">UI/UX bitiruvchisi</span>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card">
+            <div class="review-header">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200&auto=format&fit=crop" 
+                   alt="Sardor Mahmudov" 
+                   class="review-avatar" 
+                   loading="lazy">
+              <div class="review-meta">
+                <h5 class="review-name">Sardor Mahmudov</h5>
+                <p class="review-job">Python Backend Dasturchi • <span class="text-accent">Xalqaro frilans</span></p>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Kompyuterni oddiy foydalanuvchi darajasida bilardim. Meta IT School da Django va PostgreSQL ni mukammal o'rgandim. Kurs tugashi bilan 3 ta yirik loyihani portfolio qilib Upwork da faoliyat boshladim."
+            </p>
+            <div class="review-footer">
+              <span class="salary-badge">Daromad: $1,200+ / oy</span>
+              <span class="course-completed">Python Backend bitiruvchisi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEPUL SINOV DARSI FORMASI (REGISTRATION FORM) -->
+    <section class="trial-section" id="trial-form">
+      <div class="container">
+        <div class="trial-card-container">
+          
+          <!-- Left Info Box -->
+          <div class="trial-info-box">
+            <div class="trial-header-pill">🎁 100% Bepul Imkoniyat</div>
+            <h2 class="trial-heading">Bepul Sinov Darsiga Yoziling!</h2>
+            <p class="trial-subtext">
+              Hech qanday to'lovsiz birinchi darsimizda qatnashing, o'qituvchilar bilan shaxsan ko'rishib, o'zingizga mos kursni birgalikda tanlang.
+            </p>
+
+            <div class="trial-benefits">
+              <div class="benefit-item">
+                <div class="benefit-check">✓</div>
+                <div>
+                  <strong>Darajangizni bepul aniqlash</strong>
+                  <p>Mantiqiy va kompyuter bilimingizni mentor bilan birga testdan o'tkazasiz.</p>
+                </div>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-check">✓</div>
+                <div>
+                  <strong>Individual o'quv rejasi</strong>
+                  <p>Sizning maqsad va qiziqishingizga mos kelajak rejasini tuzib beramiz.</p>
+                </div>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-check">✓</div>
+                <div>
+                  <strong>Zamonaviy dars muhiti bilan tanishuv</strong>
+                  <p>Bizning kompyuter laboratoriyamiz va jamoamiz bilan yaqindan tanishasiz.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Guarantee Box -->
+            <div class="trial-guarantee">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="shield-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <div>
+                <strong>Kafolat:</strong> Hech qanday majburiyat yo'q. Sinov darsidan so'ng o'zingiz xohlagan qarorga kelasiz!
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Form Box -->
+          <div class="trial-form-box">
+            <div class="form-title-group">
+              <h3 class="form-card-title">Ro'yxatdan O'tish</h3>
+              <p class="form-card-desc">Ma'lumotlaringizni to'ldiring, mutaxassisimiz 15 daqiqada bog'lanadi:</p>
+            </div>
+
+            <form id="freeTrialForm" class="trial-form" novalidate>
+              <!-- Alert Box for Error / Notice -->
+              <div class="form-alert hidden" id="formAlert" role="alert"></div>
+
+              <!-- Input: Ism va Familiya -->
+              <div class="form-group">
+                <label for="userName" class="form-label">Ism va familiyangiz <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <input type="text" id="userName" name="name" class="form-input" placeholder="Masalan: Jasur Alimov" required minlength="2">
+                </div>
+                <span class="field-error" id="nameError"></span>
+              </div>
+
+              <!-- Input: Telefon raqam -->
+              <div class="form-group">
+                <label for="userPhone" class="form-label">Telefon raqamingiz <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <input type="tel" id="userPhone" name="phone" class="form-input" placeholder="+998 (90) 123-45-67" required>
+                </div>
+                <span class="field-error" id="phoneError"></span>
+              </div>
+
+              <!-- Select: Yo'nalish -->
+              <div class="form-group">
+                <label for="userCourse" class="form-label">Qiziqqan yo'nalishingiz <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                  <select id="userCourse" name="course" class="form-select" required>
+                    <option value="" disabled selected>Kursni tanlang...</option>
+                    <option value="Frontend Dasturlash (React)">Frontend Dasturlash (React & Next.js)</option>
+                    <option value="Backend Dasturlash (Python & Django)">Backend Dasturlash (Python & Django)</option>
+                    <option value="Fullstack JavaScript (Node.js)">Fullstack JavaScript (Node.js & MERN)</option>
+                    <option value="Mobile Dasturlash (Flutter)">Mobile Dasturlash (Flutter & Dart)</option>
+                    <option value="UI/UX & Grafik Dizayn">UI/UX & Zamonaviy Grafik Dizayn</option>
+                    <option value="IT Foundation (Kompyuter Savodxonligi)">IT Foundation & Kompyuter Savodxonligi</option>
+                    <option value="Kids IT & Scratch (Bolalar uchun)">Kids IT & Scratch (Bolalar uchun)</option>
+                    <option value="Sun'iy Intellekt & Data Science">Sun'iy Intellekt (AI) & Data Science</option>
+                  </select>
+                </div>
+                <span class="field-error" id="courseError"></span>
+              </div>
+
+              <!-- Two Column Group: Time & Experience -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="timeSlot" class="form-label">Qulay dars vaqti</label>
+                  <select id="timeSlot" name="timeSlot" class="form-select">
+                    <option value="Ertalabki guruh (09:00 - 11:00)">Ertalabki (09:00 - 11:00)</option>
+                    <option value="Kunduzgi guruh (14:00 - 16:00)" selected>Kunduzgi (14:00 - 16:00)</option>
+                    <option value="Kechki guruh (18:30 - 20:30)">Kechki (18:30 - 20:30)</option>
+                    <option value="Dam olish kunlari (Shanba/Yakshanba)">Dam olish kunlari</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="userExperience" class="form-label">Bilim darajangiz</label>
+                  <select id="userExperience" name="experience" class="form-select">
+                    <option value="Mutlaqo noldan" selected>Mutlaqo noldan</option>
+                    <option value="Boshlang'ich bilim bor">Boshlang'ich bilim bor</option>
+                    <option value="O'rta daraja">O'rta daraja</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Optional Note -->
+              <div class="form-group">
+                <label for="userMessage" class="form-label">Qo'shimcha savol yoki istak (ixtiyoriy)</label>
+                <textarea id="userMessage" name="message" class="form-textarea" rows="2" placeholder="Masalan: Noutbukim yo'q, markaz kompyuteridan foydalansam bo'ladimi?"></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block btn-submit" id="submitBtn">
+                <span class="btn-text">🎁 Bepul Darsga Joy Band Qilish</span>
+                <span class="btn-spinner hidden" id="btnSpinner"></span>
+              </button>
+
+              <p class="form-privacy-note">
+                🔒 Shaxsiy ma'lumotlaringiz maxfiy saqlanadi va uchinchi shaxslarga berilmaydi.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION (SAVOL-JAVOBLAR) -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Ko'p beriladigan savollar</span>
+          <h2 class="section-title">Savollaringiz Bormi? Bizda Javoblar Bor!</h2>
+          <p class="section-desc">Meta IT School haqida eng ko'p qiziqtirgan savollarga batafsil javoblar.</p>
+        </div>
+
+        <div class="faq-accordion" id="faqAccordion">
+          <!-- FAQ Item 1 -->
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>IT sohasini mutlaqo noldan o'rgana olamanmi?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>
+                Albatta! Kurslarimiz aynan hech qanday dasturlash tajribasi bo'lmagan yangi boshlovchilar uchun maxsus ishlab chiqilgan. Darslar eng oddiy tushunchalardan boshlanadi va bosqichma-bosqich murakkablashadi.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>O'zimda noutbuk bo'lishi shartmi?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>
+                Shart emas. Meta IT School markazimiz yuqori unumdorlikka ega zamonaviy kompyuterlar bilan to'liq jihozlangan. Dars paytida ham, darsdan tashqari Co-working vaqtida ham bemalol markaz texnikasidan foydalanishingiz mumkin.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Bepul sinov darsi nima va u qanday o'tadi?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>
+                Sinov darsi — bu o'quv muhiti, mentorlarimiz mahorati va o'qitish metodikasi bilan bevosita tanishish imkoniyatidir. Sinov darsi davomida siz birinchi dasturlash topshirig'ingizni bajarasiz va o'zingizga qaysi yo'nalish mosligini aniqlab olasiz.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Kursni tugatgach ish topishimga yordam berasizlarmi?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>
+                Ha! Bizning Karyera markazimiz barcha bitiruvchilarga rezyume va GitHub profilini to'g'ri shakllantirish, ish suhbatlariga (mock interviews) tayyorlanish hamda Andijon va Toshkentdagi IT Park hamkor kompaniyalariga tavsiyanoma berishda to'liq ko'maklashadi.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>O'qish to'lovini bo'lib to'lash (muddatli to'lov) mumkinmi?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>
+                Ha, to'lovni oylik asosda bosqichma-bosqich to'lash imkoniyati mavjud. Shuningdek, to'liq kurs uchun oldindan to'lov qilganlarga maxsus chegirmalar taqdim etiladi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALOQA VA MANZIL (CONTACT & LOCATION IN ANDIJAN) -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Biz bilan bog'lanish</span>
+          <h2 class="section-title">Andijondagi Markazimizga Tashrif Buyuring</h2>
+          <p class="section-desc">Biz har kuni ochiqmiz. Kelib dars jarayonini o'z ko'zingiz bilan ko'rishingiz mumkin!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details Cards -->
+          <div class="contact-details">
+            <div class="contact-card">
+              <div class="contact-icon bg-indigo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-info">
+                <h4>Bizning Manzil:</h4>
+                <p>Andijon shahar, Bobur shoh ko'chasi, 45-uy.</p>
+                <span class="contact-sub">Mo'ljal: Eski shahar, "Yangi Bozor" yaqinida, IT Park binosi ro'parasida.</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon bg-emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-info">
+                <h4>Telefon Raqamlar:</h4>
+                <p><a href="tel:+998901234567" class="hover-link">+998 (90) 123-45-67</a></p>
+                <p><a href="tel:+998742200000" class="hover-link">+998 (74) 220-00-00</a></p>
+                <span class="contact-sub">Qo'ng'iroqlarga 08:30 dan 20:30 gacha javob beramiz.</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon bg-cyan">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </div>
+              <div class="contact-info">
+                <h4>Ijtimoiy Tarmoqlar:</h4>
+                <div class="contact-social-pills">
+                  <a href="https://t.me/metaitschool_admin" target="_blank" rel="noopener noreferrer" class="social-pill">✈️ Telegram: @metaitschool</a>
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-pill">📸 Instagram: @metaitschool_andijan</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon bg-amber">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="contact-info">
+                <h4>Ish Vaqtimiz:</h4>
+                <p>Dushanba — Shanba: <strong>08:30 — 20:30</strong></p>
+                <p>Yakshanba: <strong>10:00 — 17:00</strong> (Masterklasslar kuni)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Map Container -->
+          <div class="contact-map-box">
+            <div class="map-card-wrapper">
+              <div class="map-header">
+                <span class="map-status"><span class="pulse-dot"></span> Andijon Markazi</span>
+                <a href="https://maps.google.com/?q=Andijon" target="_blank" rel="noopener noreferrer" class="map-direct-link">Google Xaritada ochish &rarr;</a>
+              </div>
+              <iframe 
+                title="Meta IT School Andijon Xaritasi"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96706.7725835697!2d72.28442375883651!3d40.78338902521946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bcebf6f98efdbf%3A0x6b4539ef5b6d76bb!2sAndijan%2C%20Andijan%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s" 
+                class="contact-iframe" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+              <div class="map-footer-badge">
+                📍 <strong>Meta IT School:</strong> Bobur shoh ko'chasi 45-uy, Andijon shahar
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container footer-top">
+      <div class="footer-col col-brand">
+        <a href="#home" class="logo mb-3">
+          <div class="logo-icon-wrapper">
+            <svg class="logo-icon" viewBox="0 0 40 40" fill="none">
+              <rect width="40" height="40" rx="10" fill="url(#logoGradFooter)"/>
+              <path d="M10 28L17 12L23 22L29 12L34 28" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs>
+                <linearGradient id="logoGradFooter" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#4f46e5"/>
+                  <stop offset="1" stop-color="#06b6d4"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="logo-text-group">
+            <span class="logo-brand">META <span class="text-gradient">IT SCHOOL</span></span>
+            <span class="logo-tagline">ANDIJON</span>
+          </div>
+        </a>
+        <p class="footer-bio">
+          Andijon shahrida zamonaviy kasblar va dasturlashni noldan professional darajagacha o'rgatuvchi yetakchi innovatsion IT maktabi.
+        </p>
+        <div class="footer-social-links">
+          <a href="https://t.me" target="_blank" rel="noopener noreferrer" aria-label="Telegram" class="social-btn">✈️</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-btn">📸</a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="social-btn">▶️</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-btn">🌐</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Kurslarimiz</h4>
+        <ul class="footer-links">
+          <li><a href="#courses">Frontend Dasturlash (React)</a></li>
+          <li><a href="#courses">Backend Dasturlash (Python)</a></li>
+          <li><a href="#courses">Fullstack JavaScript</a></li>
+          <li><a href="#courses">Mobile Dasturlash (Flutter)</a></li>
+          <li><a href="#courses">UI/UX & Grafik Dizayn</a></li>
+          <li><a href="#courses">IT Foundation & Savodxonlik</a></li>
+          <li><a href="#courses">Bolalar uchun IT (Scratch)</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Tezkor Havolalar</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Bosh sahifa</a></li>
+          <li><a href="#about">Biz haqimizda</a></li>
+          <li><a href="#why-us">Afzalliklarimiz</a></li>
+          <li><a href="#mentors">Mentorlar jamoasi</a></li>
+          <li><a href="#results">O'quvchilar natijalari</a></li>
+          <li><a href="#faq">Tez-tez beriladigan savollar</a></li>
+          <li><a href="#trial-form">Bepul sinov darsi</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Bog'lanish</h4>
+        <ul class="footer-contact-list">
+          <li>📍 Andijon shahar, Bobur shoh ko'chasi, 45-uy</li>
+          <li>📞 <a href="tel:+998901234567">+998 (90) 123-45-67</a></li>
+          <li>📞 <a href="tel:+998742200000">+998 (74) 220-00-00</a></li>
+          <li>✉️ info@metaitschool.uz</li>
+          <li>⏰ Har kuni: 08:30 — 20:30</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 META IT SCHOOL Andijon. Barcha huquqlar himoyalangan.</p>
+        <p class="footer-credit">Andijonda IT ta'limi kelajagi sari birgalikda!</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- COURSE DETAILS MODAL (POPUP) -->
+  <div class="modal-overlay" id="courseModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close" id="closeCourseModal" aria-label="Yopish">&times;</button>
+      <div class="modal-header">
+        <div class="modal-badge" id="modalBadge">KURS DASTURI</div>
+        <h3 class="modal-title" id="modalTitle">Kurs nomi</h3>
+        <p class="modal-duration" id="modalDuration">Davomiyligi: 6 oy</p>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline" id="modalCancelBtn">Yopish</button>
+        <button type="button" class="btn btn-primary" id="modalEnrollBtn">Ushbu kursga yozilish &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUCCESS CONGRATULATIONS MODAL -->
+  <div class="modal-overlay" id="successModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog modal-success">
+      <div class="success-icon-animation">
+        <div class="success-checkmark">
+          <svg viewBox="0 0 52 52">
+            <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+            <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+          </svg>
+        </div>
+      </div>
+      <h3 class="success-title">Tabriklaymiz! Arizangiz Qabul Qilindi!</h3>
+      <p class="success-desc" id="successMessage">
+        Sizning arizangiz Meta IT School qabul bo'limiga muvaffaqiyatli yetib bordi. Menejerimiz 15 daqiqa ichida siz bilan bog'lanib, bepul sinov darsi vaqti va tafsilotlarini kelishib oladi.
+      </p>
+      <div class="success-details-card">
+        <p><strong>Filial:</strong> Andijon shahar, Bobur shoh ko'chasi 45</p>
+        <p><strong>Telefon:</strong> +998 (90) 123-45-67</p>
+        <p><strong>Telegram kanalimiz:</strong> @natijalar</p>
+      </div>
+      <button type="button" class="btn btn-primary btn-block" id="closeSuccessModal">Tushunarli, rahmat!</button>
+    </div>
+  </div>
+
+  <!-- FLOATING QUICK ACTIONS (TELEGRAM & CALL & BACK-TO-TOP) -->
+  <div class="floating-actions" aria-label="Tezkor amallar">
+    <a href="https://t.me/metaitschool_admin" target="_blank" rel="noopener noreferrer" class="floating-btn btn-telegram" title="Telegram orqali bog'lanish" aria-label="Telegram orqali bog'lanish">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+    </a>
+    <a href="tel:+998901234567" class="floating-btn btn-phone" title="Qo'ng'iroq qilish" aria-label="Qo'ng'iroq qilish">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+    </a>
+    <button type="button" class="floating-btn btn-top hidden" id="backToTopBtn" title="Yuqoriga qaytish" aria-label="Yuqoriga qaytish">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
